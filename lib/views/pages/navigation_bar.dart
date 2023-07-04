@@ -7,7 +7,7 @@ import 'show_transaction_page.dart';
 
 class CustomNavigationBar extends StatelessWidget {
   const CustomNavigationBar({super.key});
-  static const String id = '/';
+  static const String id = '/customNavigationbar';
 
   final List<Widget> _pages = const [
     ShowTransaction(),

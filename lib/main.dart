@@ -28,12 +28,15 @@ class MyApp extends StatelessWidget {
     return MultiBlocProvider(
         providers: [
           BlocProvider(
+            create: (context) => UserBloc()..add(LoadUserEvent()),
+          ),
+
+          BlocProvider(
               create: (context) =>
                   CategoryListBloc()..add(LoadCategoryEvent())),
           BlocProvider(
               create: (context) => FilterCategoryListBloc(
                   bloc: BlocProvider.of<CategoryListBloc>(context))),
-          BlocProvider(create: (context) => UserBloc()..add(LoadUserEvent())),
           BlocProvider(create: (context) => TransactionBloc()),
           BlocProvider(create: (context) => FrequencyCubit()),
           BlocProvider(
@@ -66,9 +69,9 @@ class MyApp extends StatelessWidget {
                 title: 'Money Manager',
                 theme: CustomThemeData.lightTheme(),
                 onGenerateRoute: RouteService.onGeneratedRoute,
-                initialRoute: state.user.name.isEmpty
-                    ? AddPersonPage.id
-                    : CustomNavigationBar.id,
+                home: state.user.name.isEmpty
+                    ?const  AddPersonPage()
+                    :const  CustomNavigationBar(),
               );
             } else {
               return const MaterialApp(
