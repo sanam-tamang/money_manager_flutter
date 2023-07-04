@@ -111,7 +111,7 @@ class _TrnAmountCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final textTheme = Theme.of(context)
         .primaryTextTheme
-        .bodyText1
+        .bodyLarge
         ?.copyWith(color: ColorPalette.textColor, fontSize: 14);
     final currency =
         context.read<CurrencyFormatterCubit>().state.formatCurrency;

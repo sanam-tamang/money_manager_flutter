@@ -45,7 +45,7 @@ class _StatsPageState extends State<StatsPage>
             DropdownButton(
               iconEnabledColor: ColorPalette.brighterTextColor,
               borderRadius: BorderRadius.circular(5),
-              style: Theme.of(context).primaryTextTheme.bodyText2,
+              style: Theme.of(context).primaryTextTheme.bodyMedium,
               value: frequencyValue,
               selectedItemBuilder: (context) {
                 return Frequency.values
@@ -55,7 +55,7 @@ class _StatsPageState extends State<StatsPage>
                           child: Text(frequency.name.toCapitalizedFirstLater(),
                               style: Theme.of(context)
                                   .primaryTextTheme
-                                  .bodyText2
+                                  .bodyMedium
                                   ?.copyWith(
                                       color: ColorPalette.brighterTextColor)),
                         ))

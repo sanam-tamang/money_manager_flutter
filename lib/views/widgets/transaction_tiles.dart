@@ -97,7 +97,7 @@ class _TransactionsMainTile extends StatelessWidget {
             Text(transaction.category.type.name.toCapitalizedFirstLater()),
         trailing: Text(
           "$plusOrMinusSign ${currency.format(transaction.transactionAmount)}",
-          style: Theme.of(context).primaryTextTheme.caption?.copyWith(
+          style: Theme.of(context).primaryTextTheme.bodySmall?.copyWith(
                 fontWeight: FontWeight.w700,
                 color: trnColor,
               ),

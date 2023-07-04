@@ -33,7 +33,7 @@ String getMonthInString(int month) {
     }
   }
 
-  ;
+  
 
   return getmonth().toCapitalizedFirstLater();
 }

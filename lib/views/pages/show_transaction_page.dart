@@ -35,7 +35,7 @@ class _ShowTransactionState extends State<ShowTransaction> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      endDrawer: Drawer(),
+      endDrawer: const Drawer(),
       appBar: AppBar(
         automaticallyImplyLeading: false,
         titleSpacing: 10,
@@ -64,8 +64,8 @@ class _ShowTransactionState extends State<ShowTransaction> {
           ),
         ],
       ),
-      body: Column(
-        children: const [
+      body: const Column(
+        children: [
           Card(
               color: Colors.white,
               elevation: 0.4,
