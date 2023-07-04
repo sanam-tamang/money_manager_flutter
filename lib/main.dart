@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:money_manager/blocs/exports.dart';
+import 'blocs/exports.dart';
 
-import 'package:money_manager/services/route_service.dart';
-import 'package:money_manager/views/pages/add_person.dart';
-import 'package:money_manager/views/pages/navigation_bar.dart';
+import 'services/route_service.dart';
+import 'views/pages/add_person.dart';
+import 'views/pages/navigation_bar.dart';
 import 'package:path_provider/path_provider.dart';
 
 import 'core/custom_theme.dart';
@@ -72,8 +72,8 @@ class MyApp extends StatelessWidget {
               );
             } else {
               return const MaterialApp(
-                debugShowCheckedModeBanner: false,
-              );
+                  debugShowCheckedModeBanner: false,
+                  home: Text("hello loading"));
             }
           },
         ));

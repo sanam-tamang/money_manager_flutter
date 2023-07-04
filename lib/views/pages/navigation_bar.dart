@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:money_manager/views/pages/show_category_page.dart';
-import 'package:money_manager/views/pages/stats_page.dart';
+import 'show_category_page.dart';
+import 'stats_page.dart';
 
 import '../../blocs/exports.dart';
 import 'show_transaction_page.dart';

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:money_manager/blocs/exports.dart';
-import 'package:money_manager/core/extention.dart';
-import 'package:money_manager/models/transaction_model.dart';
-import 'package:money_manager/views/pages/transaction_add_or_edit_page.dart';
-import 'package:money_manager/views/widgets/custom_alert_dialog.dart';
+import '../../blocs/exports.dart';
+import '../../core/extention.dart';
+import '../../models/transaction_model.dart';
+import 'transaction_add_or_edit_page.dart';
+import '../widgets/custom_alert_dialog.dart';
 
 import '../widgets/custom_leading_icon.dart';
 

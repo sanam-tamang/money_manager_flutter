@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-import 'package:money_manager/blocs/exports.dart';
-import 'package:money_manager/core/color_pallete.dart';
-import 'package:money_manager/core/extention.dart';
-import 'package:money_manager/enum/frequency_enum.dart';
-import 'package:money_manager/views/pages/transaction_add_or_edit_page.dart';
-import 'package:money_manager/views/widgets/show_transaction_amount_heading_card.dart';
+import '../../blocs/exports.dart';
+import '../../core/color_pallete.dart';
+import '../../core/extention.dart';
+import '../../enum/frequency_enum.dart';
+import 'transaction_add_or_edit_page.dart';
+import '../widgets/show_transaction_amount_heading_card.dart';
 
 import '../widgets/date_counter_buttons.dart';
 import '../widgets/transaction_tiles.dart';

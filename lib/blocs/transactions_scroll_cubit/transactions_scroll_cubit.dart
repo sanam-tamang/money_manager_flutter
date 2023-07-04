@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:money_manager/blocs/exports.dart';
+import '../exports.dart';
 
 part 'transactions_scroll_state.dart';
 

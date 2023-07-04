@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-import 'package:money_manager/blocs/exports.dart';
-import 'package:money_manager/core/extention.dart';
-import 'package:money_manager/enum/category_type.dart';
-import 'package:money_manager/models/transaction_category.dart';
-import 'package:money_manager/views/widgets/custom_alert_dialog.dart';
+import '../../blocs/exports.dart';
+import '../../core/extention.dart';
+import '../../enum/category_type.dart';
+import '../../models/transaction_category.dart';
+import '../widgets/custom_alert_dialog.dart';
 
 import '../../core/color_pallete.dart';
 import 'add_or_update_category_page.dart';

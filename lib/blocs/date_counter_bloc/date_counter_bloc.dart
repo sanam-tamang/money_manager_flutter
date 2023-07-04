@@ -1,8 +1,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:money_manager/core/date_time_formattor.dart';
-import 'package:money_manager/core/printable_date.dart';
-import 'package:money_manager/enum/frequency_enum.dart';
+import '../../core/date_time_formattor.dart';
+import '../../core/printable_date.dart';
+import '../../enum/frequency_enum.dart';
 
 import '../frequency_cubit/frequency_cubit.dart';
 

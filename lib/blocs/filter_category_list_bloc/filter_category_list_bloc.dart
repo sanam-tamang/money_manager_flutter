@@ -1,8 +1,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:money_manager/blocs/category_list_bloc/category_list_bloc.dart';
-import 'package:money_manager/enum/category_type.dart';
-import 'package:money_manager/models/transaction_category.dart';
+import '../category_list_bloc/category_list_bloc.dart';
+import '../../enum/category_type.dart';
+import '../../models/transaction_category.dart';
 
 part 'filter_category_list_event.dart';
 part 'filter_category_list_state.dart';

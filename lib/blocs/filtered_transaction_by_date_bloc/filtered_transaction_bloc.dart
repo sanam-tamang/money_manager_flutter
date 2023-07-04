@@ -1,8 +1,8 @@
 import 'package:equatable/equatable.dart';
-import 'package:money_manager/blocs/exports.dart';
-import 'package:money_manager/core/date_time_formattor.dart';
-import 'package:money_manager/enum/frequency_enum.dart';
-import 'package:money_manager/models/transaction_model.dart';
+import '../exports.dart';
+import '../../core/date_time_formattor.dart';
+import '../../enum/frequency_enum.dart';
+import '../../models/transaction_model.dart';
 
 import '../../enum/category_type.dart';
 

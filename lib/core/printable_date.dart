@@ -1,4 +1,4 @@
-import 'package:money_manager/core/get_month.dart';
+import 'get_month.dart';
 
 class PrintableDate {
   static String yearMonthDay(DateTime date) {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:money_manager/core/color_pallete.dart';
-import 'package:money_manager/core/extention.dart';
+import '../../core/color_pallete.dart';
+import '../../core/extention.dart';
 
 import '../../blocs/exports.dart';
 import '../../enum/category_type.dart';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:money_manager/enum/category_type.dart';
+import '../../enum/category_type.dart';
 
 import '../../blocs/exports.dart';
 import '../widgets/income_or_expense_pie_chart_data_widget.dart';

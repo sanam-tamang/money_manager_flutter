@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:intl/intl.dart';
-
 import 'package:money_manager/core/extention.dart';
 import 'package:money_manager/models/transaction_model.dart';
 

@@ -1,9 +1,9 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:money_manager/blocs/current_transaction_type_cubit/current_transaction_type_cubit.dart';
+import '../current_transaction_type_cubit/current_transaction_type_cubit.dart';
 
-import 'package:money_manager/models/filter_category_with_amount_model.dart';
-import 'package:money_manager/models/transaction_category.dart';
+import '../../models/filter_category_with_amount_model.dart';
+import '../../models/transaction_category.dart';
 
 import '../../enum/category_type.dart';
 import '../filtered_transaction_by_date_bloc/filtered_transaction_bloc.dart';

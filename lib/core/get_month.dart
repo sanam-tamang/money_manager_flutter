@@ -1,5 +1,5 @@
-import 'package:money_manager/core/extention.dart';
-import 'package:money_manager/enum/month_enum.dart';
+import 'extention.dart';
+import '../enum/month_enum.dart';
 
 String getMonthInString(int month) {
   String getmonth() {

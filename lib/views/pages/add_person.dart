@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:money_manager/blocs/exports.dart';
+import '../../blocs/exports.dart';
 
-import 'package:money_manager/models/user.dart';
-import 'package:money_manager/views/pages/navigation_bar.dart';
+import '../../models/user.dart';
+import 'navigation_bar.dart';
 
 import '../../core/validation.dart';
 

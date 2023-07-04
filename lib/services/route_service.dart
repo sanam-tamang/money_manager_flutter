@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:money_manager/models/transaction_category.dart';
-import 'package:money_manager/models/transaction_model.dart';
-import 'package:money_manager/views/pages/add_person.dart';
-import 'package:money_manager/views/pages/add_or_update_category_page.dart';
-import 'package:money_manager/views/pages/navigation_bar.dart';
-import 'package:money_manager/views/pages/show_category_page.dart';
-import 'package:money_manager/views/pages/stats_page.dart';
-import 'package:money_manager/views/pages/transaction_detail_page.dart';
+import '../models/transaction_category.dart';
+import '../models/transaction_model.dart';
+import '../views/pages/add_person.dart';
+import '../views/pages/add_or_update_category_page.dart';
+import '../views/pages/navigation_bar.dart';
+import '../views/pages/show_category_page.dart';
+import '../views/pages/stats_page.dart';
+import '../views/pages/transaction_detail_page.dart';
 
 import '../views/pages/transaction_add_or_edit_page.dart';
 

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:money_manager/blocs/exports.dart';
-import 'package:money_manager/core/color_pallete.dart';
-import 'package:money_manager/core/extention.dart';
-import 'package:money_manager/enum/frequency_enum.dart';
-import 'package:money_manager/views/widgets/date_counter_buttons.dart';
+import '../../blocs/exports.dart';
+import '../../core/color_pallete.dart';
+import '../../core/extention.dart';
+import '../../enum/frequency_enum.dart';
+import '../widgets/date_counter_buttons.dart';
 
 import 'expense_page.dart';
 import 'income_expense_page.dart';

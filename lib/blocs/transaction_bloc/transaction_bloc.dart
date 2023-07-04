@@ -1,8 +1,8 @@
 import 'package:equatable/equatable.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
-import 'package:money_manager/enum/category_type.dart';
-import 'package:money_manager/models/transaction_category.dart';
-import 'package:money_manager/models/transaction_model.dart';
+import '../../enum/category_type.dart';
+import '../../models/transaction_category.dart';
+import '../../models/transaction_model.dart';
 part 'transaction_event.dart';
 part 'transaction_state.dart';
 

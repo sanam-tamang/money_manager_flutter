@@ -1,8 +1,8 @@
 import 'dart:math';
 
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../filter_category_with_amount_bloc/filter_category_with_amount_bloc.dart';
 

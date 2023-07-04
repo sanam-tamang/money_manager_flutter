@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:money_manager/core/color_pallete.dart';
+import '../../core/color_pallete.dart';
 
 import '../../blocs/exports.dart';
 
