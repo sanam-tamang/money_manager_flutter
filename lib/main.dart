@@ -76,7 +76,7 @@ class MyApp extends StatelessWidget {
             } else {
               return const MaterialApp(
                   debugShowCheckedModeBanner: false,
-                  home: Text("hello loading"));
+                  home: Text("loading"));
             }
           },
         ));

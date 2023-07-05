@@ -21,6 +21,8 @@ class _ShowTransactionState extends State<ShowTransaction> {
   @override
   void initState() {
     super.initState();
+    //when calling init set the scroll to true for to show the add transaction button
+    context.read<TransactionsScrollCubit>().changeScroll(true);
     context
         .read<FrequencyCubit>()
         .changeFrequency(context.read<TempFrequencyCubit>().state.frequency);
@@ -59,7 +61,7 @@ class _ShowTransactionState extends State<ShowTransaction> {
               ),
             );
           }),
-         const  SizedBox(
+          const SizedBox(
             width: 15,
           ),
         ],
@@ -70,8 +72,8 @@ class _ShowTransactionState extends State<ShowTransaction> {
               color: Colors.white,
               elevation: 0.4,
               child: ShowTransactionAmountHeadingCard()),
-                 Expanded(child: TrasactionTiles()),
- ],
+          Expanded(child: TrasactionTiles()),
+        ],
       ),
       floatingActionButton:
           BlocBuilder<TransactionsScrollCubit, TransactionsScrollState>(
